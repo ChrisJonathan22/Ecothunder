@@ -52,10 +52,12 @@ header {
 }
 
 .mobile_menu_drawer {
+    position: fixed;
     width: 0%;
-    overflow: hidden;
     height: 100vh;
-    transition: width 1s;
+    overflow: hidden;
+    transition: all 1s;
+    background-color: #FEE5AB;
 }
 
 .mobile_menu_drawer ul {
@@ -347,5 +349,37 @@ p span {
 
     .showMenu ul {
         display: block;
+        width: 100%;
+        text-align: center;
+        list-style: none;
+        padding: 0;
+    }
+
+    .showMenu ul li a {
+        text-decoration: none;
+        color: #000000;
+        padding: 20px;
+        display: block;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    #sandy-box-image-holder img {
+        width: 100%;
+    }
+
+    #grey-box {
+        height: 1200px;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        height: 700px;
     }
 }
