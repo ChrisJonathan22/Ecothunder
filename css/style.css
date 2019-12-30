@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: rgb(224, 219, 208);
     overflow-x: hidden !important;
 }
 
@@ -381,5 +381,21 @@ p span {
 
     .footer {
         height: 700px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #sandy-box-text-container {
+        width: 90%;
+    }
+
+    #sandy-box-text-container h3 {
+        font-size: 1.7em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .footer {
+        height: 750px;
     }
 }
