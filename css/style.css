@@ -36,9 +36,9 @@ header {
     color: #BA9B5F;
     background-color: #FAEECF;
     padding: 10px 30px;
-    border-color: #BA9B5F;
-    border-style: solid;
-    border-width: 1px;
+    border: #BA9B5F solid 1px;
+    transition: .5s all;
+    font-size: 17px;
 }
 
 #top-nav ul li a:hover {
@@ -71,7 +71,7 @@ header {
 
 #sandy-box {
     background-color: #DEC692;
-    padding: 50px;
+    padding: 50px 50px 35px 50px;
     height: 340px;
     display: -webkit-box;
     display: -webkit-flex;
@@ -107,6 +107,7 @@ header {
     border-style: solid;
     border-color: black;
     text-decoration: none;
+    transition: .5s all;
 }
 
 .header_buttons:hover {
@@ -126,7 +127,7 @@ header {
 #grey-box {
     background-color: #D8D7D7;
     height: 370px;
-    padding: 30px;
+    padding: 30px 30px 25px 30px;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -163,6 +164,7 @@ header {
     border-style: solid;
     border-color: black;
     text-decoration: none;
+    transition: .5s all;
 }
 
 .box_buttons:hover {
@@ -175,6 +177,7 @@ header {
     height: 300px;
     display: flex;
     justify-content: space-around;
+    padding-top: 30px;
 }
 
 .footer_box {
@@ -209,6 +212,7 @@ p span {
     margin: 5px;
     padding: 5% 5% 5% 4%;
     color: #D6CFCA;
+    transition: .5s all;
 }
 
 .social_media_links i:hover {
@@ -222,7 +226,7 @@ p span {
 }
 
 #thoughts input {
-    height: 32px;
+    height: 35px;
 }
 
 #thoughts input::placeholder {
@@ -231,7 +235,8 @@ p span {
 
 #thoughts a {
     padding: 10px 20px;
-    display: initial;
+    display: inline;
+    vertical-align: text-top;
 }
 
 #thoughts #footer_copy {
@@ -240,7 +245,7 @@ p span {
     margin-top: 45px;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1068px) {
 
     header {
         display: block;
