@@ -71,8 +71,9 @@ header {
 
 #sandy-box {
     background-color: #DEC692;
-    padding: 50px 50px 35px 50px;
+    padding: 50px;
     height: 340px;
+    height: auto;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -90,10 +91,12 @@ header {
 #sandy-box-text-container h3 {
     margin: 0;
     padding-bottom: 20px;
+    font-size: 40px;
 }
 
 #sandy-box-text-container p {
     padding-bottom: 50px;
+    font-size: 18px;
 }
 
 .header_buttons {
@@ -270,14 +273,14 @@ p span {
 
     #sandy-box {
         display: block;
-        height: 640px;
+        height: auto;
     }
 
     #sandy-box-text-container {
         text-align: center;
         margin: 0 auto;
         margin-bottom: 30px;
-        width: 65%;
+        width: 95%;
     }
 
     #sandy-box-image-holder {
@@ -326,7 +329,7 @@ p span {
     }
 
     header {
-        height: 70px;
+        height: 40px;
         width: 100%;
         display: flex;
         justify-content: flex-end;
@@ -335,7 +338,7 @@ p span {
 
     .clear_header {
         display: block;
-        height: 70px;
+        height: 40px;
     }
 
     .mobile_menu_icon {
@@ -374,22 +377,30 @@ p span {
     }
 
     #grey-box {
-        height: 1200px;
+        height: auto;
         flex-wrap: wrap;
+        padding-bottom: 30px;
     }
 
     .box {
-        width: 60%;
-        margin: 0 auto;
+        width: 75%;
         margin-bottom: 20px;
     }
 
-    .footer {
-        height: 700px;
+    .box:nth-last-of-type(1) {
+        margin: 0;
+    }
+
+    footer.footer {
+        height: auto;
     }
 }
 
 @media screen and (max-width: 450px) {
+    .box {
+        width: 95%;
+    }
+
     #sandy-box-text-container {
         width: 90%;
     }
